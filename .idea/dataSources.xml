@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="Azure SQL Database" uuid="2b1ac74a-7c58-4e8e-a4c8-ec72a3b554bb">
+      <driver-ref>azure.ms</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+      <jdbc-url>jdbc:sqlserver://my-sqldb-server.database.windows.net:1433;encrypt=true;trustServerCertificate=false;loginTimeout=30;</jdbc-url>
+      <jdbc-additional-properties>
+        <property name="AZURE_SQL_DB_SERVER" value="/subscriptions/3b50b354-461c-4316-9c48-bc717f4c1efc/resourceGroups/mysqldb/providers/Microsoft.Sql/servers/my-sqldb-server" />
+      </jdbc-additional-properties>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+  </component>
+</project>
